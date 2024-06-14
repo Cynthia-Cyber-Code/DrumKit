@@ -1,23 +1,42 @@
 html {
     font-size: 10px;
-    /* background: url('./background.jpg') bottom center; */
-    /* background: url('./records.png') bottom center; */
-    background: url('./mic.png') bottom center;
+    background: url('./galaxy-night-landscape.jpg') center;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
-  body,html {
+  body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
   }
+
+  header {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    color: white;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.112);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #slider {
+    color: white;
+    accent-color: #9c78de;
+  }
   
   .keys {
     display: flex;
-    flex: 1;
-    min-height: 100vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px;
   }
   
   .key {
@@ -31,7 +50,7 @@ html {
     text-align: center;
     color: white;
     background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .5rem black;
+    text-shadow: 0 0 10px black;
     margin-top: 20%;
   }
   
@@ -90,5 +109,6 @@ html {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #dd78de;
+    color: #9c78de;
   }
+
